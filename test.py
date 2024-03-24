@@ -56,27 +56,14 @@ with torch.no_grad():
 
     start = time.time()
     for batch_idx, (input, name) in enumerate(test_loader):
-
+        print(name[0])
         input = input.to(device)
-
-        start_img = time.time()
         frame_out = model(input)
-        end_img = time.time()
-
-        time_per_image = end_img - start_img
-
-        print(name[0], time_per_image)
-
-        total_time += time_per_image
-        
         frame_out = frame_out.to(device)
     
         name = re.findall("\d+",str(name))
         imwrite(frame_out, os.path.join(output_dir, str(name[0])+'.png'), range=(0, 1))
-    end = time.time()
 
-    print('with imwrite time', (end-start)/75)
-    print('without imwrite time', total_time/75)
 
 
 
