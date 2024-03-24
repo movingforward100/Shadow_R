@@ -1,2 +1,2 @@
-refinement.pkl
-shadowremoval.pkl
+weights/refinement.pkl
+weights/shadowremoval.pkl
