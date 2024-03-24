@@ -7,14 +7,9 @@ import os
 import time
 import re
 from torchvision import transforms
-#from utils_test import to_psnr, to_ssim_skimage    #少一个to_rmse
-#from tensorboardX import SummaryWriter
-
-
 from test_dataset import dehaze_test_dataset
 from model import final_net
 
-#os.chdir("UNet-FFC-dehazing")
 
 parser = argparse.ArgumentParser(description='Shadow')
 parser.add_argument('--test_dir', type=str, default='./ShadowDataset/test/')
