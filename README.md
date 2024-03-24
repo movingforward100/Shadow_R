@@ -1,6 +1,6 @@
 # Shadow_R
 
-This is the official PyTorch implementation of our dehazing method for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track
+This is the official PyTorch implementation of our solution for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track
 
 # Environment:
 
