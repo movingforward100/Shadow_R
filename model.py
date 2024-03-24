@@ -18,7 +18,7 @@ class final_net(nn.Module):
 
     def forward(self, input, scale=0.05):
         x = self.remove_model(input)
-        #x_ = (self.enhancement_model(x) * scale + x ) / (1 + scale)
+        x_ = (self.enhancement_model(x) * scale + x ) / (1 + scale)
         return x
 
 
