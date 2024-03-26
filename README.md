@@ -32,7 +32,9 @@ Download [our saved model for NTIRE 2024 Image Shadow Removal Challenge --- Fide
 # How to reproduce our test result
 Download above saved models
 
-Run test.py and find results in the folder ./results. 
+Run test.py and find results in the folder ./results. Please note the weight path in Line 34 and Line 41 of test.py.
+
+If you have any problems in reproducing our result, please contact wdong1745376@gmail.com as soon as possible.
 
 
 
