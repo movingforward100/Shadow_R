@@ -1,4 +1,4 @@
-# Shadow_R
+# ShadowR-R
 
 This is the official PyTorch implementation of our solution for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track
 
