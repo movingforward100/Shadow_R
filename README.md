@@ -68,6 +68,9 @@ conda install pytorch=1.11 torchvision cudatoolkit=11.3 -c pytorch
 pip install numpy matplotlib scikit-learn scikit-image opencv-python timm kornia einops pytorch_lightning
 ```
 ### Datasets
+ISTD [Google Drive](https://drive.google.com/file/d/1I0qw-65KBA6np8vIZzO6oeiOvcDBttAY/view)
+ISTD+ [Google Drive](https://drive.google.com/file/d/1rsCSWrotVnKFUqu9A_Nw9Uf-bJq_ryOv/view) 
+WSRD+ [Train_input](https://drive.google.com/file/d/1n9l3UyQw6HjCXqycvHAfl4T-jsJpPHeJ/view), [Train_gt](https://drive.google.com/file/d/1DZEMIJ8PIxmZww8iAqlcvlKWyfssNQRO/view), [Validation_input](https://drive.google.com/file/d/1l2aertz2qKVLUkP-egwiCBcyf_5GWnav/view), [Validation_gt](https://drive.google.com/file/d/1a8JVs_zVQSdmxeDYJnqeEyynd9wV6n5D/view).
 
 ### Pre-trained Model
 - [Our model for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track](https://drive.google.com/file/d/1ntXl9vGVOFGel1-Pu1vbbWidOU3QH-IM/view?usp=sharing).
