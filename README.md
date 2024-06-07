@@ -50,7 +50,7 @@ This is the official PyTorch implementation of **ShadowRefiner: Towards Mask-fre
 
 
 
-## 1. Create Environment
+## Create Environment
 ### Dependencies and Installation
 - Python 3.8
 - Pytorch 1.11
@@ -67,16 +67,19 @@ conda install pytorch=1.11 torchvision cudatoolkit=11.3 -c pytorch
 
 pip install numpy matplotlib scikit-learn scikit-image opencv-python timm kornia einops pytorch_lightning
 ```
+## Datasets
+
+## Pretrain Model
+- [our model for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track](https://drive.google.com/file/d/1ntXl9vGVOFGel1-Pu1vbbWidOU3QH-IM/view?usp=sharing).
 
 
+## Testing
+Download above saved models and unzip it into the folder ./weights. To test the model, you need to specify the data path (Line ) and model path ( Line 34 and 41) in test.py. Then run
+```bash
+python test.py 
+```
+You can check the output in `../results`.
 
-# Our saved Model
-Download [our saved model for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track](https://drive.google.com/file/d/1ntXl9vGVOFGel1-Pu1vbbWidOU3QH-IM/view?usp=sharing) and unzip it into the folder ./weights to reproduce our test result.
-
-# How to reproduce our test result
-Download above saved models
-
-Run test.py and find results in the folder ./results. Please note the weight path in Line 34 and Line 41 of test.py.
 
 If you have any problems in reproducing our result, please contact wdong1745376@gmail.com as soon as possible.
 
