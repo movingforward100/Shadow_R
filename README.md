@@ -66,7 +66,6 @@ conda activate LLFlow
 conda install pytorch=1.11 torchvision cudatoolkit=11.3 -c pytorch
 
 pip install numpy matplotlib scikit-learn scikit-image opencv-python timm kornia einops pytorch_lightning
-
 ```
 
 
