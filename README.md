@@ -69,8 +69,8 @@ pip install numpy matplotlib scikit-learn scikit-image opencv-python timm kornia
 ```
 ### Datasets
 
-### Pretrain Model
-- [our model for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track](https://drive.google.com/file/d/1ntXl9vGVOFGel1-Pu1vbbWidOU3QH-IM/view?usp=sharing).
+### Pre-trained Model
+- [Our model for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track](https://drive.google.com/file/d/1ntXl9vGVOFGel1-Pu1vbbWidOU3QH-IM/view?usp=sharing).
 
 
 ### Testing
@@ -91,9 +91,3 @@ You can check the output in `../results`.
 }
 
 If you have any problems in reproducing our result, please contact wdong1745376@gmail.com as soon as possible.
-
-
-
-
-
-
