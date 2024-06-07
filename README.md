@@ -31,6 +31,22 @@ This is the official PyTorch implementation of **ShadowRefiner: Towards Mask-fre
 
 </details>
 
+<details close>
+<summary><b>Performance on NTIRE 2024 Shadow Removal Challenge---Perceptual Track:</b></summary>
+
+![results1](/figure/perceptual.png)
+
+
+</details>
+
+<details close>
+<summary><b>Performance on NTIRE 2024 Shadow Removal Challenge---Fidelity Track:</b></summary>
+
+![results1](/figure/fidelity.png)
+
+
+</details>
+
 
 
 
