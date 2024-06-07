@@ -61,6 +61,14 @@ conda create --name shadowrefiner python=3.8
 conda activate LLFlow
 ```
 
+2. Clone Repo
+```
+git clone https://github.com/movingforward100/Shadow_R.git
+```
+
+
+
+
 - CUDA Version: 11.0
 
 
