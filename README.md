@@ -55,13 +55,13 @@ This is the official PyTorch implementation of **ShadowRefiner: Towards Mask-fre
 - Python 3.8
 - Pytorch 1.11
 
-- Create Conda Environment
+1. Create Conda Environment
 ```
 conda create --name shadowrefiner python=3.8
 conda activate LLFlow
 ```
 
-- Install Dependencies
+2. Install Dependencies
 ```
 conda install pytorch=1.11 torchvision cudatoolkit=11.3 -c pytorch
 
