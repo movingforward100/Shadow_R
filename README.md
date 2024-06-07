@@ -5,8 +5,8 @@
 
 
 [![arXiv](https://img.shields.io/badge/arxiv-paper-179bd3)](https://arxiv.org/abs/2303.06705)
-[![NTIRE](https://img.shields.io/badge/NTIRE_Perceptual_2024-leaderboard(User: ylxb)-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/17546#results)
-[![NTIRE](https://img.shields.io/badge/NTIRE_Fidelity_2024-leaderboard(User: ZXCV)-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/17539#results)
+[![NTIRE](https://img.shields.io/badge/NTIRE_Perceptual_2024-leaderboard_User: ylxb-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/17546#results)
+[![NTIRE](https://img.shields.io/badge/NTIRE_Fidelity_2024-leaderboard_User: ZXCV-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/17539#results)
 
 
 
