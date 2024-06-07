@@ -1,3 +1,16 @@
+&nbsp;
+
+<div align="center">
+<p align="center"> <img src="figure/logo.png" width="200px"> </p>
+
+
+[![arXiv](https://img.shields.io/badge/arxiv-paper-179bd3)](https://arxiv.org/abs/2303.06705)
+[![NTIRE](https://img.shields.io/badge/NTIRE_2024-leaderboard-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/17640#results)
+[![zhihu](https://img.shields.io/badge/zhihu-知乎-179bd3)](https://zhuanlan.zhihu.com/p/657927878)
+
+
+
+
 # ShadowR-R
 
 This is the official PyTorch implementation of our solution for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track
