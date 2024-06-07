@@ -86,7 +86,7 @@ python test.py
 You can check the output in `../results`.
 
 
-## 5. Citation
+## Citation
 
 ```shell
 @article{shadowrefiner_2024_cvprw,
@@ -95,4 +95,4 @@ You can check the output in `../results`.
     journal = {arXiv preprint arXiv:2406.02559},
 }
 
-If you have any problems in reproducing our result, please contact wdong1745376@gmail.com as soon as possible.
+If you have any problems in reproducing our result, please contact wdong1745376@gmail.com asap.
