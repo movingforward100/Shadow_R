@@ -74,7 +74,7 @@ pip install numpy matplotlib scikit-learn scikit-image opencv-python timm kornia
 
 
 ### Testing
-Download above saved models and unzip it into the folder ./weights. To test the model, you need to specify the data path (Line ) and model path ( Line 34 and 41) in test.py. Then run
+Download above saved models and unzip it into the folder ./weights. To test the model, you need to specify the test dictionary (Line 15) and model path ( Line 34 and 41) in test.py. Then run
 ```bash
 python test.py 
 ```
