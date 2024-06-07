@@ -86,14 +86,14 @@ python test.py
 You can check the output in `../results`.
 
 
-## Citation
+### Citation
 If you find our work useful for your research, please consider citing our paper
 
 ```shell
 @article{shadowrefiner_2024_cvprw,
     author    = {Dong, Wei and Zhou, Han and Tian, Yuqiong and Sun, Jingke and Liu, Xiaohong and Zhai, Guangtao and Chen, Jun},
     title     = {ShadowRefiner: Towards Mask-free Shadow Removal via Fast Fourier Transformer},
-    journal = {arXiv preprint arXiv:2406.02559},
+    journal   = {arXiv preprint arXiv:2406.02559},
 }
 ```
 
