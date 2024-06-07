@@ -22,6 +22,16 @@ This is the official PyTorch implementation of **ShadowRefiner: Towards Mask-fre
 ### Overall Framework
 ![Framework](figure/framework.png)
 
+### Results
+<summary><b>Performance on ISTD, ISTD+, and WSRD+:</b></summary>
+
+![results1](/figure/seven_results.png)
+
+
+</details>
+
+<details close>
+
 
 # Environment:
 
