@@ -87,6 +87,7 @@ You can check the output in `../results`.
 
 
 ## Citation
+If you find our work useful for your research, please consider citing our paper
 
 ```shell
 @article{shadowrefiner_2024_cvprw,
@@ -94,5 +95,7 @@ You can check the output in `../results`.
     title     = {ShadowRefiner: Towards Mask-free Shadow Removal via Fast Fourier Transformer},
     journal = {arXiv preprint arXiv:2406.02559},
 }
+```
 
-If you have any problems in reproducing our result, please contact wdong1745376@gmail.com asap.
+### Contact
+If you have any question, please feel free to contact us via wdong1745376@gmail.com.
