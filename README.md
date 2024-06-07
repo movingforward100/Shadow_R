@@ -50,8 +50,8 @@ This is the official PyTorch implementation of **ShadowRefiner: Towards Mask-fre
 
 
 
-## Create Environment
-### Dependencies and Installation
+### Create Environment
+#### Dependencies and Installation
 - Python 3.8
 - Pytorch 1.11
 
@@ -67,19 +67,28 @@ conda install pytorch=1.11 torchvision cudatoolkit=11.3 -c pytorch
 
 pip install numpy matplotlib scikit-learn scikit-image opencv-python timm kornia einops pytorch_lightning
 ```
-## Datasets
+### Datasets
 
-## Pretrain Model
+### Pretrain Model
 - [our model for NTIRE 2024 Image Shadow Removal Challenge --- Fidelity Track & Perceptual Track](https://drive.google.com/file/d/1ntXl9vGVOFGel1-Pu1vbbWidOU3QH-IM/view?usp=sharing).
 
 
-## Testing
+### Testing
 Download above saved models and unzip it into the folder ./weights. To test the model, you need to specify the data path (Line ) and model path ( Line 34 and 41) in test.py. Then run
 ```bash
 python test.py 
 ```
 You can check the output in `../results`.
 
+
+## 5. Citation
+
+```shell
+@article{shadowrefiner_2024_cvprw,
+    author    = {Dong, Wei and Zhou, Han and Tian, Yuqiong and Sun, Jingke and Liu, Xiaohong and Zhai, Guangtao and Chen, Jun},
+    title     = {ShadowRefiner: Towards Mask-free Shadow Removal via Fast Fourier Transformer},
+    journal = {arXiv preprint arXiv:2406.02559},
+}
 
 If you have any problems in reproducing our result, please contact wdong1745376@gmail.com as soon as possible.
 
