@@ -19,6 +19,13 @@
 ### Introduction
 This is the official PyTorch implementation of **ShadowRefiner: Towards Mask-free Shadow Removal via Fast Fourier Transformer** in CVPRW 2024. Our ShadowRefiner **won the first place** in the [NTIRE 2024 Challenge on Shadow Removal Perceptual Track](https://codalab.lisn.upsaclay.fr/competitions/17546) and **won the second place** in the [NTIRE 2024 Challenge on Shadow Removal Fidelity Track](https://codalab.lisn.upsaclay.fr/competitions/17539).  If you find this repo useful, please give it a star ⭐ and consider citing our paper in your research. Thank you.
 
+### NTIRE 2024 Award
+&nbsp;
+
+<div align="center">
+<p> <img src="figure/NTIRE2024awards_Dehazing.png" width="600px"> </p>
+</div>
+&nbsp;
 
 ### Overall Framework
 ![Framework](figure/framework.png)
