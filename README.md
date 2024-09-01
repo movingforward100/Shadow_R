@@ -23,7 +23,8 @@ This is the official PyTorch implementation of **ShadowRefiner: Towards Mask-fre
 &nbsp;
 
 <div align="center">
-<p> <img src="figure/NTIRE2024awards_Dehazing.png" width="600px"> </p>
+<p> <img src="figure/NTIRE2024awards_shadow_perceptual.png" width="600px"> </p>
+<p> <img src="figure/NTIRE2024awards_shadow_fidelity.png" width="600px"> </p>
 </div>
 &nbsp;
 
