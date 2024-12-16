@@ -1,0 +1,43 @@
+# Custom PyTorch index for CUDA 11.3
+--extra-index-url https://download.pytorch.org/whl/cu113
+
+# Core PyTorch ecosystem - pinned versions
+torch==1.11.0+cu113
+torchvision==0.12.0+cu113
+
+# Core dependencies with strict versions
+numpy==1.24.3           # Compatible with PyTorch 1.11
+typing-extensions==4.12.2  # Required by PyTorch
+
+# Deep Learning Framework Dependencies
+pytorch-lightning==1.9.0  # Compatible with torch 1.11
+torchmetrics==0.11.4      # Compatible with torch 1.11
+timm==1.0.11
+einops==0.8.0
+
+# Vision and Image Processing
+kornia==0.7.4
+kornia-rs==0.1.7
+Pillow==11.0.0
+opencv-python==4.10.0.84
+scikit-image==0.24.0
+
+# Scientific Computing
+scipy==1.14.1
+scikit-learn==1.5.2
+matplotlib==3.9.3
+
+# Additional Required Dependencies
+joblib==1.4.2          # For scikit-learn
+threadpoolctl==3.5.0   # For scikit-learn
+networkx==3.4.2        # For scikit-image
+tifffile==2024.9.20    # For scikit-image
+imageio==2.36.1        # For scikit-image
+PyYAML==6.0.2          # For pytorch-lightning
+fsspec==2024.10.0      # For pytorch-lightning
+packaging==24.2
+tqdm==4.67.1
+
+# Ensure proper package building
+setuptools>=63.2.0
+wheel>=0.37.0

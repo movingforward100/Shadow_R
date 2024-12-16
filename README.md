@@ -1,3 +1,27 @@
+Adjustment to the original repository, which allows to run it on weaker cards.<br>
+Uses chunking/patching.<br>
+
+Currently, original repo installation steps will result in wrong dependencies.<br>
+So instead, install like this: `pip install --upgrade-strategy only-if-needed -r requirements.txt`
+
+Or you can download the full setup from here https://github.com/IgorAherne/Shadow_R/releases/tag/latest <br>
+This way you won't need to run any pip installs.
+
+If you need neural nets, get them from google drive of the original repo<br>
+If the drive is unaccessible, you can get them from here too [Release](https://github.com/IgorAherne/Shadow_R/releases/tag/original_weights)
+
+Launch via `python ./test.py --chunk_size 512` or `--chunk_size 256` etc<br>
+
+arguments and their default values (see test.py):<br>
+`--test_dir = ./ShadowDataset/test` where the input images are<br>
+`--input_dir = ./input/`<br>
+`--output_dir = ./output/`<br>
+`--chunk_size = 512` size of sliding window, to split the work into smaller pieces, for performance. Careful, might create seams<br>
+`--overlap = 64` overlap among the windows, to hide possible seams<br>
+
+
+Original repo description:
+
 &nbsp;
 
 <div align="center">
